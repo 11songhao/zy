@@ -21,8 +21,8 @@ export default {
   },
   mutations: {
     // 删除事件
-    delTodoList(state, value) {
-      const index = state.list.findIndex((ele) => (ele.id = value));
+    delTodoList(state, val) {
+      const index = state.list.findIndex((ele) => (ele.id = val));
       state.list.splice(index, 1);
     },
     addTodoList(state, list) {
@@ -35,8 +35,8 @@ export default {
   },
   actions: {
     // 删除事件
-    dekTodoList(context, id) {
-      context.commit("delTodoList", id)
+    dekTodoList({ commit }, id) {
+      commit("delTodoList", id);
     },
     addTodoList(context, list) {
       context.commit("addTodoList", list);

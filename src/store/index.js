@@ -1,7 +1,7 @@
 import Vue from "vue";
 import Vuex from "vuex";
-import todoList from "./todosList";
-import skinPeeler from "./skinPeeler";
+import todoList from "./todoList";
+import skinPeeler from "./skin";
 
 Vue.use(Vuex);
 

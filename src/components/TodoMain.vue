@@ -13,7 +13,7 @@
 
 <script>
 import { createNamespacedHelpers } from "vuex";
-const { mapState, mapActions } = createNamespacedHelpers("todosList");
+const { mapState, mapActions } = createNamespacedHelpers("todoList");
 export default {
   data() {
     return {};

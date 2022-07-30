@@ -16,7 +16,7 @@
 <script>
 import { createNamespacedHelpers } from "vuex";
 const { mapActions } = createNamespacedHelpers("todoList");
-const { mapState } = createNamespacedHelpers("skinPeeler");
+const { mapState } = createNamespacedHelpers("skin");
 export default {
   data() {
     return {
